@@ -26,6 +26,9 @@ function bildAnzeigen(w, h) {
     bild.style.marginLeft = w.toString() + "px";
     bild.style.marginTop = h.toString() + "px";
 
+    //Breite des Bildes auf 20% des Bildschirms begrenzen
+    bild.style.width = "20%";
+
     // Das Bild dem HTML-Dokument hinzufügen
     document.body.appendChild(bild);
 }
